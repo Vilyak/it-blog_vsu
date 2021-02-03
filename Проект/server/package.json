@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a server src for blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node server.ts --inspect",
+    "build": "tsc --outDir build"
+  },
+  "author": "Dzmitry Vialichka",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mysql": "^2.15.17",
+    "@types/node": "^14.14.22",
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
